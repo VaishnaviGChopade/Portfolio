@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+</head>
+<body>
+    <link rel="stylesheet" href="projects.css">
+    <header>
+        <nav>
+            <div class="left">Vaishnavi's Portfolio</div>
+            <div class="right">
+                <ul>
+               <a href="index.html"><li>Home</li></a>
+              
+               <a href="About.html"><li>About</li></a>
+               <a href="contact.html"><li>Contact</li></a>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="Projects"><h2>My Projects </h2></section>
+   <div class="allp">
+    <div class="proj"><h2>Job Search Portal</h2>
+        <br><img src="job_search.jpeg">
+        <p align="justify"><br> In this on the front page there are different options that are sign up, company panel, 
+            student panel, home, services, salary guide, about and contact.
+            In the company panel we have to enter company name and password. After entering 
+            correct details it will display the card of company and on that card there is option i.e. “see 
+            detail’s” so after clicking on that it will display the company information. And in our project 
+            there are 25 companies are there and data of each company is stored in the database. 
+            In sign up page there is a form in which we have to enter our details like name, email, 
+            date of birth etc. After submitting it our data will store the table student. Job table in the 
+            database. Also on this sign up page there is option for sign in.
+            <br><br>In the student panel there are two options that are what and where in which we have to 
+            enter company name and location. After click on submit it will display company card and 
+            option for apply is present below. After click on apply there is a form in which we have to enter 
+            our details like name, email, date of birth etc. After submitting it our data will store in the table 
+            in the database of a particular company. And success message in shown and two options are 
+            there “Search for other company” and “More about this company”.
+            In the page of salary guide there is the information about jobs and average salary. Then 
+            in services there are services given which are provided by this website. In about there is 
+            information about our website and in the contact there is contact details. </p>
+        <br><p><h3>Languages used :</h3><ul><li>HTML</li><li>CSS</li><li>Bootstrap</li><li>Java</li><li>JS</li></ul></p>
+        <br><hr><p><h3>Database Used  :</h3><ul><li>MySQL</ul></p>
+            <br><hr>  </div>
+        <div class="proj"><h2>Facial Paralysis Detection</h2>
+   <br><img src="Facial_paralysis.jpeg">
+    <p align="justify">Facial paralysis detection is beneficial because it detects asymmetry in symptoms in face. First of all the system takes photos of face, which is then processed and detect facial paralysis using our trained model. And then it will show result, if any disease is their then it will notify us. The facial paralysis is detected using the Inception V3 model (Convolutional Neural Network). In terms of testing and validation accuracy,the intermediate results are presented. It is observed that the best training accuracy for Inception, 99.33 percent is obtained at the 31st epoch and the best test accuracy, 89.87 percent is obtained at the 25th epoch and for cnn  best training accuracy, 98.57 percent is obtained at the 40th epoch and the best test accuracy, 89.87 percent is obtained at the 22nh epoch. Lastly, we conclude our result.
+
+       <br> <b>Keywords</b>-Facial Paralysis, Palsy,CNN, Tensorflow,Keras, InceptionV3, VGG16, ResNet50
+        .</p><br><hr><br>
+        <p><h3>Overall accuracy</h3><br>
+            <table  class="accuracy" border="1">
+            <th> Algorithm</th>
+            <td>CNN</td>
+            <td>VGG16</td>
+            <td>Resnet50</td>
+            <td>InceptionV3</td>
+          <tr> <th> Accuracy</th>
+           <td> 0.8924</td>
+        <td>0.5063</td>
+    <td>0.5000</td>
+        <td>0.8765</td></tr>
+        </table>
+            </p>
+            <br><hr>
+    <br><p><h3>Algorithms used :</h3><ul><li>CNN</li><li>InceptionV3</li><li>ResNet50</li><li>VGG16</li></ul></p>
+   
+    <br><hr>
+</div>
+</div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
+
+    </script>
+     
+     <script>
+        var typed = new Typed('.Projects', {
+          strings: ['<h1><b><i>Hello, These are my projects</i></b></h1>'],
+          typeSpeed: 70,
+        });
+      </script>
+    </body>
+    </html>

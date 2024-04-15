@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: rgb(20, 16, 40);
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.left{
+    font-size:1.5rem;
+    font-family: sans-serif;
+    
+}
+.left{
+
+    font-family: sans-serif;
+}
+nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 50px;
+   background-color: rgb(55, 137, 159);
+   
+}
+
+ul{
+    display: flex;
+    
+}
+li{
+    list-style: none;
+    margin: 0 20px;
+
+}
+
+
+
+.firstsec{
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.myName{
+    margin-top: 50px;
+    width: 50%;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#name{
+    color:blueviolet;
+}
+#element{
+    color:blueviolet;
+  
+}
+.myphoto{
+    display: flex;
+    height: 300px;
+    box-shadow: 0 4px 8px -1px rgb(232, 225, 225);
+    border-radius: 5%;
+    opacity:0.6;
+    transition: all 2s ease ;
+}
+#mypic{
+    box-shadow: 0 4px 8px -1px rgb(232, 225, 225);
+    border-radius: 5%;
+    transition: all 2s ease ;
+
+    
+}
+#mypic:hover{
+    width: 310px;
+    height: 310px;
+}
+.myphoto:hover{
+    width: 310px;
+    height: 310px;
+}
+
+.social{
+    display: block;
+    margin: 2rem 0 -5rem 2.5rem;
+ 
+    font-size: 1.3rem;
+}
+i{
+    padding: 1rem;
+}
+main hr{
+    background-color: aliceblue;
+
+    margin:150px 15px;;
+}
+.Experience{
+    color: aliceblue;
+    margin-top: -120px ;
+    margin-left: 15px;
+}
+.txt{
+	color:gray;
+	
+}
+.Work{
+	 display:flex;
+	position: relative;
+    justify-content: space-evenly; 
+	
+}
+.card {
+   
+ 
+    width: 15rem;
+    height: 3.5rem;
+    margin: 5px;
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+    background: linear-gradient(329deg, rgba(0,36,35,0.3039867109634552) 0%, rgba(9,121,114,0.7142857142857143) 35%, rgba(0,217,255,1) 100%);
+	color:white;
+	border-radius:30%;
+	padding:1.2rem;
+  }
+.buttons{
+    padding:  40px 0 0;
+}
+.Resume{
+    font-size: 1rem;
+    padding: 0.3rem;
+    background-color: rgb(44, 27, 87);
+    border-color: white;
+    border-radius: 0.5rem;
+    color: aliceblue;
+}
+.github{
+    background: linear-gradient(160deg, #7cc4ed 0%, #ffffff 39%, #ffffff 59%, #ffffff 79%, #80D0C7 98%, #ffffff 100%);
+    font-size: 1rem;
+    padding: 0.3rem;
+    background-color: rgb(31, 13, 47);
+    border-color: white;
+    border-radius: 0.5rem;
+    color: black;
+}
+.me{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.per{
+    color: rgb(129, 185, 191);
+    margin: 0 2rem;
+}
+hr{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.edu{
+    margin: 1rem;
+    
+}
+.diploma{
+    margin: 1rem;
+    color: rgb(33, 133, 150);
+     
+}
+.btech{
+  
+        
+        color: rgb(33, 133, 150);
+         
+}
+.me{
+    margin-top: 4rem;
+    color:blueviolet;
+    font-size: 2rem;
+}

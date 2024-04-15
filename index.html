@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <header>
+        <nav>
+            <div class="left">Vaishnavi's Portfolio</div>
+            <div class="right">
+                <ul>
+               <a href="index.html"><li>Home</li></a>
+               <a href="About.html"><li>About</li></a>
+              
+               <a href="projects.html"><li>My Projects</li></a>
+               <a href="contact.html"><li>Contact</li></a>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsec">
+            
+        <div class="myName">
+             Hello, My name is <span id="name">Vaishnavi</span>
+             <div>and I am a passionate <br></div>
+             <span id="element">Web Developer</span>
+             <div class="buttons" >
+           <button class="Resume"> <a href="Vaishnavi_Chopade_Resume.pdf" download>Download Resume</a></button>  
+             <button class="github" onclick="location.href='https://github.com/VaishnaviGChopade'">Visit Github</button>
+             <div class="social">
+                <i class="bi bi-linkedin" onclick="location.href='https://www.linkedin.com/in/vaishnavi-chopade-3b8694265/'"></i>
+                <i class="bi bi-github" onclick="location.href='https:github.com/VaishnaviGChopade'"></i>
+                <i class="bi bi-telegram" onclick="location.href='https://t.me/vaishnavi_t03'"></i>
+            </div>
+            </div>
+           
+        </div>
+       
+      
+        <div class="myphoto">
+            <img src="MyImg.jpg" id="mypic">
+        </div>
+    </section>
+    <hr>
+    <section class="Experience">
+	<span class ="txt">What I have done</span>
+        <h1>Work Experience</h1>
+		<br>
+		 <section class="Work">
+		<div class="card">Web Development and Designing Intern At Oasis Infobyte.<br>July 2023</div>
+		<div class="card"> Machine Learning Intern At Info aidTech.<br>20/06/2023 to 20/07/2023</div>
+      </section>
+	  </section>
+    </main>
+   
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
+
+    </script>
+     
+     <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Web Developer</i>.'],
+          typeSpeed: 55,
+        });
+      </script>
+       <script>
+        var typed = new Typed('.left', {
+          strings: ["<i>Vaishnavi's Portfolio</i>"],
+          typeSpeed: 60,
+          
+        
+        });
+      </script>
+  
+</body>
+<footer><br><br><hr></footer>
+</html>

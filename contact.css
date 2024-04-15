@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: rgb(20, 16, 40);
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.left{
+    font-size:1.5rem;
+    font-family: sans-serif;
+}
+.left{
+
+    font-family: sans-serif;
+}
+nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 50px;
+   background-color: rgb(55, 137, 159);
+   
+}
+
+ul{
+    display: flex;
+    
+}
+li{
+    list-style: none;
+    margin: 0 20px;
+
+}
+
+
+
+.heading{
+    display:inline-block;
+    margin-left: 35rem;
+    margin-top: 3rem;
+    background: linear-gradient(160deg, #7cc4ed 0%, #ffffff 39%, #ffffff 59%, #ffffff 79%, #80D0C7 98%, #ffffff 100%);
+    font-size: 2rem;
+    padding: 0.9rem;
+    background-color: rgb(31, 13, 47);
+    border-color: white;
+    border-radius: 0.50rem;
+    color: rgb(0, 0, 0);
+}
+.myphoto{
+    display: flex;
+    height: 300px;
+    box-shadow: 0 4px 8px -1px rgb(232, 225, 225);
+    border-radius: 5%;
+    opacity:0.6;
+    transition: all 2s ease ;
+}
+#mypic{
+    box-shadow: 0 4px 8px -1px rgb(232, 225, 225);
+    border-radius: 5%;
+    transition: all 2s ease ;
+
+    
+}
+#mypic:hover{
+    width: 310px;
+    height: 310px;
+}
+.myphoto:hover{
+    width: 310px;
+    height: 310px;
+}
+.contact{
+    display: flex;
+   align-items: center;
+    justify-content: space-evenly;
+    margin: 5rem 15rem 1rem 0;
+}
+.form{
+    background: linear-gradient(160deg, #7cc4ed 0%, #128599 39%, #7dcee2 59%, #c6a8de 79%, #80D0C7 98%, #ffffff 100%);
+    font-size: 1.5rem;
+    padding: 2rem;
+    background-color: rgb(31, 13, 47);
+    border-color: white;
+    border-radius: 0.50rem;
+    color: rgb(0, 0, 0);
+}  
+.message{
+    width: 40rem;
+    height: 4rem;
+}
